@@ -1,0 +1,7 @@
+services:
+  sentinel-api:
+    build:
+      context: ./sentinel-api  # Indica que o Dockerfile está dentro desta pasta
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
