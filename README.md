@@ -12,6 +12,11 @@ Este ecossistema serve como base para monitoramento de ativos, oferecendo endpoi
 * **Containerização:** Docker & Docker Compose
 * **Cloud:** AWS EC2 (Amazon Linux 2023)
 
+* ## 🧪 Qualidade e Automação (QA)
+Para garantir a integridade dos endpoints, desenvolvi uma suíte de testes automatizados utilizando:
+* **Python 3.x**: Linguagem base para os scripts de teste.
+* **Selenium/Pytest**: Validação de fluxos funcionais e integração com a API.
+
 ## 🧠 Desafios Enfrentados e Soluções
 
 ### 1. Conflito de Bytecode (Java 17 vs 11)
